@@ -149,15 +149,14 @@ class Duck(Poultry):
     animal_type = 'утка'
     voice = 'Кря-кря'
 
-
 all_animal = []
 
 grey_goose = Goose("grey", 4)
 white_goose = Goose("white", 5)
 gooses = [grey_goose, white_goose]
-print('-------------------')
+print('-------------------------')
 print('Взаимодействие с гусями')
-print('-------------------')
+print('-------------------------')
 for goose in gooses:
     goose.get_voice()
     goose.get_food()
@@ -166,9 +165,9 @@ for goose in gooses:
     print()
 
 cow = Cow("Манька", 100)
-print('-------------------')
+print('-------------------------')
 print('Взаимодействие с коровой')
-print('-------------------')
+print('-------------------------')
 cow.get_voice()
 cow.get_food()
 print(cow.get_milk())
@@ -178,9 +177,9 @@ print()
 sheep1 = Sheep("Барашек", 10)
 sheep2 = Sheep("Кудрявый", 12)
 sheeps = [sheep1, sheep2]
-print('-------------------')
+print('-------------------------')
 print('Взаимодействие с овцами')
-print('-------------------')
+print('-------------------------')
 for sheep in sheeps:
     sheep.get_voice()
     sheep.get_food()
@@ -191,9 +190,9 @@ for sheep in sheeps:
 chicken1 = Chicken("Ко-Ко", 1)
 chicken2 = Chicken("Кукареку", 2)
 chickens = [chicken1, chicken2]
-print('-------------------')
+print('-------------------------')
 print('Взаимодействие с курами')
-print('-------------------')
+print('-------------------------')
 for chicken in chickens:
     chicken.get_voice()
     chicken.get_food()
@@ -204,9 +203,9 @@ for chicken in chickens:
 goat1 = Goat("Рога", 15)
 goat2 = Goat("Копыта", 17)
 goats = [goat1, goat2]
-print('-------------------')
+print('-------------------------')
 print('Взаимодействие с козами')
-print('-------------------')
+print('-------------------------')
 for goat in goats:
     goat.get_voice()
     goat.get_food()
@@ -215,9 +214,9 @@ for goat in goats:
     print()
 
 duck = Duck("Кряква", 8)
-print('-------------------')
+print('-------------------------')
 print('Взаимодействие с уткой')
-print('-------------------')
+print('-------------------------')
 duck.get_voice()
 duck.get_food()
 print(duck.get_eggs())
